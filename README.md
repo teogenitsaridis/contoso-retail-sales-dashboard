@@ -38,7 +38,7 @@ Retail management required a dynamic reporting tool to:
 
 ## 🧹 Data Pipeline, Extraction & Cleaning (Power Query)
 The underlying dataset was sourced as raw, disjointed **CSV files** requiring extensive ETL processing prior to modeling:
-* **Data Extraction:** Ingested multi-table transactional and master data from raw CSV files (`Sales`, `Stores`, `Customers`, `Products`).
+* **Data Extraction:** Ingested multi-table transactional and master data from raw CSV files (`Sales`, `Stores`, `Customers`, `Products`, `Date`).
 * **Data Cleaning & Transformation:** 
   * Handled missing values, null handling, and removed redundant records.
   * Corrected and strictly defined data types (Dates, Currencies, Categorical IDs, Integers).
